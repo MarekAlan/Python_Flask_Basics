@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator</title>
+</head>
+<body>
+<h1>Kalkulator</h1>
+    <form method="POST">
+        <input type="text" name="number_1">
+        <select name = 'operation'>
+            <option value = 'add'>+</option>
+            <option value = 'subs'>-</option>
+            <option value = 'mult'>*</option>
+            <option value = 'div'>/</option>
+        </select>
+        <input type="text" name="number_2">
+        <input type="submit" value="Oblicz!">
+    </form>
+    <h1>{{ wynik }}</h1>
+</body>
+</html>

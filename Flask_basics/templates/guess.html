@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess</title>
+</head>
+<body>
+    <form method="POST">
+        <label>Zgadnij liczbę:<input type="text" name="number"></label>
+        <input type="hidden" name="wylosowana" value="{{ to_be_guessed }}">
+        <input type="submit" value="Spróbuj">
+    </form>
+     <h1>{{ komunikat }}</h1>
+</body>
+</html>
